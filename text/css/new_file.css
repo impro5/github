@@ -1,0 +1,245 @@
+
+.site-content {
+	padding: 0 20px 20px 0
+}
+.site-content ul{
+	margin-left: 0 !important;
+}
+.cat-title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+.cat-title a {
+	font-size: 12px;
+	color: #888;
+	font-weight: normal
+}
+.blog-list {
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: -10px
+}
+.blog-list:before,
+.blog-list:after {
+	display: table;
+	content: ""
+}
+.blog-list:after {
+	clear: both
+}
+.blog-list li {
+	display: block;
+	padding: 0 10px 20px;
+	width:25%;
+	float: left;
+	box-sizing: border-box;
+}
+.blog-list li .li-content {
+	border: 1px solid #ececec;
+	padding: 10px 10px 0 10px
+}
+.blog-list li .li-content:hover {
+	border-color: #ccc;
+	-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, .05)
+}
+.blog-list li.good {
+	position: relative
+}
+.blog-list li a {
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	display: inline-block
+}
+.blog-list li a:hover {
+	color: #f55555
+}
+.blog-list li img {
+	margin-bottom: -2px;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.blog-list li em {
+	font-style: normal
+}
+.blog-list li em span {
+	color: #f55555
+}
+.blog-list li .blog-summary {
+	color: #888;
+	font-size: 12px;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+	margin: 5px 0
+}
+.blog-list li .meta {
+	margin: 0 -10px;
+	padding: 2px 5px;
+	font-size: 12px;
+	background-color: #fcfcfc;
+	color: #acacac
+}
+.blog-list li .meta span {
+	margin-right: 10px
+}
+.blog-list li .meta .avator {
+	float: right;
+	display: inline-block;
+	margin: 1px 0 0 0
+}
+.blog-list li .tips {
+	color: #999
+}
+.blog-list li .action {
+	visibility: hidden;
+	padding-left: 10px
+}
+.blog-list li:hover .action {
+	visibility: visible
+}
+.blog-list li .action a {
+	padding-right: 5px
+}
+.li-block li {
+	width: 100%
+}
+.li-block li .blog-summary {
+	height: auto
+}
+.li-block li .meta span.good {
+	float: none
+}
+.select2-container-multi .select2-choices {
+	border: 0;
+	background: none
+}
+.tag-list {
+	margin-bottom: 20px
+}
+.tag-list a {
+	font-size: 12px;
+	background: #FFE2E2;
+	display: inline-block;
+	padding: 5px 7px;
+	margin: 0 5px 5px 0;
+	text-decoration: none;
+	color: #fff
+}
+.tag-list a.color1 {
+	background-color: #6ca3cd
+}
+.tag-list a.color1:hover {
+	background-color: #4d84ad
+}
+.tag-list a.color2 {
+	background-color: #e45f5f
+}
+.tag-list a.color2:hover {
+	background-color: #cb4141
+}
+.tag-list a.color3 {
+	background-color: #56a652
+}
+.tag-list a.color3:hover {
+	background-color: #33782f
+}
+.tag-list a.color4 {
+	background-color: #4d6373
+}
+.tag-list a.color4:hover {
+	background-color: #384b59
+}
+.tag-list a.color5 {
+	background-color: #7a62b6;
+	box-sizing: border-box;
+}
+.tag-list a.color5:hover {
+	background-color: #644c9f
+}
+.tag-list a.color6 {
+	background-color: #ec7933
+}
+.tag-list a.color6:hover {
+	background-color: #d8641e
+}
+.tag-list a.color7 {
+	background-color: #6bb6bd
+}
+.tag-list a.color7:hover {
+	background-color: #529fa6
+}
+.tag-page a {
+	color: #666;
+	background: #f7f7f7;
+	width: 150px;
+	padding: 7px;
+	margin: 0 10px 10px 0
+}
+.tag-page a:hover {
+	background: #f55555;
+	color: #fff
+}
+.itemdiv {
+	padding: 5px;
+	min-height: 66px;
+	position: relative;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #ccc
+}
+.itemdiv > .user {
+	display: inline-block;
+	width: 42px;
+	position: absolute;
+	left: 0px
+}
+.itemdiv > .user > img {
+	border-radius: 100%;
+	border: 2px solid #f55555;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	max-width: 40px;
+	position: relative
+}
+.itemdiv > .body {
+	width: auto;
+	margin-left: 50px;
+	position: relative
+}
+.itemdiv > .body > .name {
+	display: block;
+	color: rgb(153, 153, 153)
+}
+.itemdiv > .body > .time {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: rgb(102, 102, 102);
+	position: absolute;
+	right: 0;
+	top: 0
+}
+.itemdiv > .body > .text {
+	display: block;
+	position: relative;
+	margin-top: 2px;
+	padding-bottom: 19px;
+	padding-left: 7px;
+	font-size: 13px
+}
+.green {
+	color: #69aa46!important
+}
+.popover {
+	position: relative
+}

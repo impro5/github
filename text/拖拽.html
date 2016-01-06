@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.box{
+				position: relative;
+			}
+			.en{
+				position: absolute;
+				z-index: 1;
+				height: 100px;
+				width: 100px;
+				background-color: #56A652;
+				font-size: 24px;
+				line-height: 100px;
+				width: 100px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="en">
+				黑子
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var _this=$(".en");
+				$(".en").mousedown(function(e){
+					_this.css("left",e.pageX-50);
+					_this.css("top",e.pageY-50);
+				})
+				
+			})
+		</script>
+	</body>
+</html>
